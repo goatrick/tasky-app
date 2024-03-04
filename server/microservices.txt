@@ -1,0 +1,24 @@
+(on server)
+otp -> redis (auto-expiry)
+ - set otp
+ - get otp 
+
+reminder-jobs microserives whiteboarding
+
+server - 8081 (microserive)
+- contains accessToken key for verification
+
+auth -> accessToken generated after login (token stored with respect to userType)
+
+jobs -> node-scheduler
+ - set jobs -> backup in db, fault tolerant (chron status / job status)
+    - invoked when /api/tasks router of user/org is hit
+    - jobs fired -> status must reflect 
+
+
+ (superAdmin feature for individual/org) -> monitor jobs
+ - get jobs (individual / organisation wise)
+ - fire job immediately (chron status true, job status false)
+ - retrieve job (chron status false, job status false)
+
+

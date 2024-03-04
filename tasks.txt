@@ -1,0 +1,65 @@
+Hanzala - Junaid
+    E-R Data Modelling Graph
+
+Sam/Abhinav/Yaseera
+Seed 1
+    --> Write seed function that inserts 5 Individual Users as per the schema
+        -- Password must be hashed using bcrypt
+        -- make isVerified email and password to true
+        -- verificationcode (create random string length of 12 chars)
+
+seedIndividualUsers(userData); Note : (Only User Info, No tasks info)
+
+Expected outcome : 
+        5 fake users in the db without tasks.
+
+---------------------------------------------------------------------------------------
+
+
+Sam/Abhinav/Yaseera
+Seed 2 
+    ---> Write seed function that inserts 10 tasks for the given { user_id }
+        -- Follow tasks schema (including reminders 1/2,1/4,3/4 timestamps)
+
+InsertTasksForUser(user_id);
+
+
+---------------------------------------------------------------------------------------
+
+
+Abhinav/Yaseera
+Seed 3
+    ---> Write seed function that inserts 5 Organisations as per the schema 
+        -- follow the org schema file
+        -- Password must be hashed using bcrypt
+        -- make isVerified email and password to true
+        -- verificationcode (create random string length of 12 chars)
+
+Note : Create only Org users, (Dont create teams and members)
+
+
+---------------------------------------------------------------------------------------
+
+
+Abhinav/Yaseera
+Seed 4
+    ---> Write seed function that inserts 3 teams for the given org_id
+
+Note : Create only teams for the given {org_id} , (Not members)
+
+---------------------------------------------------------------------------------------
+
+
+Abhinav/Yaseera
+
+Seed 5  
+    --> Write seed function that inserts 4 members for the given org_id and team_id
+
+
+---------------------------------------------------------------------------------------
+
+
+Abhinav/Yaseera
+Seed 6
+    ---> Write seed function that inserts 10 tasks into org_tasks for the
+         given team_id and all the members in the team

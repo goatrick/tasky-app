@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://kit.fontawesome.com/46e8086402.js" crossorigin="anonymous"></script>
+  <style>
+   
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 40px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header {
+      text-align: center;
+      background-color: #f5f5ff;
+      padding: 20px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+
+    header img {
+      max-width: 100px;
+      height: auto;
+    }
+
+    h1 {
+      color: #ffffff;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid #dddddd;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color: blue;
+      color: #ffffff;
+    }
+
+    tfoot {
+      text-align: center;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      background-color: rgb(161, 161, 217);
+      padding: 10px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      color: #ffffff;
+    }
+    .signature {
+      margin-top: 20px;
+      font-size: 15px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+     <i class="fa fa-tasks fa-3x"></i>
+      <h1 style="color: black; font-family:monospace">task.app reminder</h1>
+    </header>
+     <p>Dear <%- fname %>,</p>
+     
+     <p>I hope this email finds you well. This is an automatic friendly reminder about 
+        completing your task "<%- taskname %>" !!. As the deadline approaches, it's essential to ensure
+         everything is on track.</p>
+
+    <p>please be sure to note final deadline for this task on <%- deadline %> </p>
+
+     <div class="signature">
+    <h3>Regards </h3>
+    <p> 
+    team @ tasky.app<br>
+    </p> 
+  </div>
+  <footer>
+    &copy; 2023-24 TASKY.APP All rights reserved.
+  </footer>
+  </div>
+</body>
+</html>

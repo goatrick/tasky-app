@@ -1,0 +1,47 @@
+[
+  {
+    "firstname": "John",
+    "lastname": "Doe",
+    "email": "john.doe@example.com",
+    "password": "password",
+    "mobile": "+911234567890",
+    "accountType": "freemium",
+    "credits": 20
+  },
+  {
+    "firstname": "Jane",
+    "lastname": "Smith",
+    "email": "jane.smith@example.com",
+    "password": "password",
+    "mobile": "+912345678901",
+    "accountType": "freemium",
+    "credits": 20
+  },
+  {
+    "firstname": "Michael",
+    "lastname": "Johnson",
+    "email": "michael.johnson@example.com",
+    "password": "password",
+    "mobile": "+913456789012",
+    "accountType": "freemium",
+    "credits": 20
+  },
+  {
+    "firstname": "William",
+    "lastname": "Taylor",
+    "email": "william.taylor@example.com",
+    "password": "password",
+    "mobile": "+914567890123",
+    "accountType": "freemium",
+    "credits": 20
+  },
+  {
+    "firstname": "Olivia",
+    "lastname": "Martinez",
+    "email": "olivia.martinez@example.com",
+    "password": "password",
+    "mobile": "+915678901234",
+    "accountType": "freemium",
+    "credits": 20
+  }
+]
